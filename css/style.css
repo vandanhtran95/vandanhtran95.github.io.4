@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	font-family: arial;
+	font-size: 16px;
+	color: #ffffff;
+	margin: 0
+}
+
+.top-bar {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #5B5B5B;
+	color: white;
+	line-height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	z-index: 20
+}
+
+.logo {
+	padding-top: 34px
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	color: #ffffff
+}
+
+.logo a:hover {
+	color: red
+}
+
+.menu {
+	padding-top: 34px
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
+}
+
+.menu ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	display: block
+}
+
+.menu ul li a:hover {
+	background-color: rgb(27, 0, 177);
+	color: rgb(255, 255, 255)
+}
+
+/*phan drop-down menu*/
+.menu ul li {
+	position: relative
+}
+
+.menu ul li .drop-down {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 220px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none
+}
+
+.menu .drop-down li {
+	border-bottom: 1px solid #FFFFFF
+}
+
+.menu ul li:hover .drop-down {
+	display: block
+}
+
+.banner {
+	width: 100%;
+	min-height: 700px;
+	position: relative
+}
+
+.cover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5)
+}
+
+/*cation*/
+.caption {
+	width: 30%;
+	position: absolute;
+	text-align: center;
+	right: 35%;
+	top: 45%
+}
+
+.caption h1 {
+	color: #ffffff;
+	font-size: 40px
+}
+
+.caption p {
+	color: aliceblue
+}
+
+.noto-serif- {
+	font-family: "Noto Serif", serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-variation-settings:
+		"wdth" 100;
+}
+
+body {
+	font-family: "Noto Serif", serif;
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+/*phan slider*/
+#slide .owl-dots {
+	position: absolute;
+	bottom: 10px;
+	left: 45%;
+}
+
+#slide .owl-dots .owl-dot span {
+	width: 12px;
+	height: 12px;
+}
+
+#slide .owl-nav {
+	position: absolute;
+	left: 0px;
+	top: 40%;
+	width: 100%;
+}
+
+#slide .owl-nav [class*='owl-'] {
+	font-size: 60px;
+	/*background:rgba(255,255,255,.5);border:1px solid #fff; */
+	color: #F99092
+}
+
+#slide .owl-dots .owl-dot span {
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #F99092;
+	display: block;
+	transition: opacity 200ms ease;
+	border-radius: 30px;
+}
+
+#slide .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background: darkred;
+}
+
+#slide .owl-nav .owl-next {
+	position: absolute;
+	right: 5%;
+}
+
+#slide .owl-nav .owl-prev {
+	position: absolute;
+	left: 5%;
+}
+
+#slide .owl-nav [class*='owl-']:hover {
+	background: none;
+	border: none;
+	color: darkred;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Noto Serif", serif;
+}
+
+body {
+	font-family: "Noto Serif", serif;
+	font-size: 16px;
+	color: #666666;
+	margin: 0
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	left: 0;
+	top: 0;
+	background-color: white;
+	position: sticky;
+	z-index: 100
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
+}
+
+.menu {
+	padding-top: 18px
+}
+
+.menu ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 17px;
+	font-weight: 500;
+	color: #3E3E3E;
+	border-radius: 20px
+}
+
+.menu ul li a:hover {
+	color: lightgray
+}
+
+.img-100 {
+	width: 100%;
+	height: auto
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto
+}
+
+.logo {
+	margin: 5px 100px 5px 0px;
+	padding-top: 7px
+}
+
+main {
+	width: 100%;
+	min-height: 500px;
+}
+
+.gach-chan {
+	border-bottom: 2px solid darkred
+}
+
+.vien {
+	width: 100%;
+	min-height: 350px;
+	border: 0px solid #666666;
+	padding: 10px;
+}
+
+.mo-ta {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	overflow: hidden;
+	text-align: center
+}
+
+.text {
+	width: 100%;
+	position: absolute;
+	left: 0%;
+	top: -200%;
+	transition: all 1s
+}
+
+.vien:hover .text {
+	top: -20%
+}
+
+.icon {
+	width: 80%;
+	height: 40px;
+	position: absolute;
+	left: 10%;
+	top: 100%;
+	display: flex;
+	justify-content: space-around;
+	transition: all 1s
+}
+
+.icon a {
+	width: 40px;
+	height: 40px;
+	background-color: darkred;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-decoration: none
+}
+
+.icon a:hover {
+	background-color: rgba(203, 203, 203, 1.00);
+	color: darkred
+}
+
+.text-do {
+	color: red
+}
+
+.icon2 {
+	padding-top: 15px;
+}
+
+#about {
+	width: 100%;
+	min-height: 600px;
+	;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center
+}
+
+.vien-trang {
+	width: 100%;
+	min-height: 100%;
+	border: 1px solid white;
+	padding: 20px;
+	text-align: center
+}
+
+#about a {
+	text-decoration: none;
+	color: darkred
+}
+
+#about a:hover {
+	color: white
+}
+
+#contact {
+	width: 100%;
+	min-height: 600px;
+	background: url("../image/png17.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center
+}
+
+.shadow {
+	width: 100%;
+	min-height: 400px;
+	border: 1px solid #CBCBCB;
+	box-shadow: 5px 5px 5px gray;
+	padding: 30px
+}
+
+.form-control {
+	padding: 8px;
+	width: 100%;
+	margin-bottom: 10px
+}
+
+.container2 {
+	width: 60%;
+	margin: 0 auto
+}
+
+.caption {
+	position: absolute;
+	width: 30%;
+	top: 35%;
+	left: 35%;
+	z-index: 10
+}
+
+.caption h1 {
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(255, 255, 255)
+}
+
+.p1 {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: "Noto Serif", serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 80
+}
+
+a:hover {
+	color: rgba(33, 30, 30, 1.00)
+}
+
+.price {
+	color: rgb(0, 0, 0);
+	font-weight: 10;
+	font-size: 14px;
+	text-align: center
+}
+
+#new {
+	margin-bottom: 30px;
+	margin-top: 50px
+}
+
+.ten {
+	color: rgb(0, 0, 0)
+}
